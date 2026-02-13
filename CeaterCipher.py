@@ -1,4 +1,3 @@
-import pdb
 def encrypt_literal(origin_iteral: str, encrypt_addition: int = 5, to_secret: bool = True):
 
     if not isinstance(encrypt_addition, int):
@@ -10,7 +9,6 @@ def encrypt_literal(origin_iteral: str, encrypt_addition: int = 5, to_secret: bo
     alphabet = ''.join([chr(i) for i in range(97, 123)])
     cut_alphabet = alphabet[encrypt_addition:] + alphabet[0:encrypt_addition]
     using_mapping = ''.maketrans(alphabet.upper() + alphabet, cut_alphabet.upper() + cut_alphabet)
-    pdb.set_trace()
     return origin_iteral.translate(using_mapping)
 
 
@@ -18,7 +16,7 @@ def encrypt(text: str, offset: int = 5) -> str:
     return encrypt_literal(origin_iteral=text, encrypt_addition=offset)
 
 
-def decrypt(text, offset) -> str:
+def decrypt(text: str, offset:int = 5 ) -> str:
     return encrypt_literal(origin_iteral=text, encrypt_addition=offset, to_secret=False)
 
 
