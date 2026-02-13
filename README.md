@@ -1,5 +1,5 @@
 # freecodecampLearn
-## First project Name : Ceasar Cipher
+## First project Name :Caesar Cipher
    __my code__ : CeaterCipher.py
 ###  Caesar Cipher encrypt alphabet method of Roman Empire 
 **Caesar** maybe is ceaesar and his genius  
