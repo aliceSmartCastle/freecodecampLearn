@@ -21,4 +21,5 @@ def decrypt(text: str, offset:int = 5 ) -> str:
 
 
 if __name__ == "__main__":
-    print(encrypt(text="Python is awesome language !"))
+    print(encrypt(text="Python is awesome language !")) #encrypt
+    print(decrypt(text="Udymts nx fbjxtrj qfslzflj !")) #decrypt
