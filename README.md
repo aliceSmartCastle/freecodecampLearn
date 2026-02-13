@@ -1,8 +1,8 @@
 # freecodecampLearn
 ## First project Name : Ceasar Cipher
    __my code__ : CeaterCipher.py
-### CeaserCiper encrypt alphabet method of Roman Empire 
-**creater** maybe is ceaesar and his genius  
+###  Caesar Cipher encrypt alphabet method of Roman Empire 
+**Caesar** maybe is ceaesar and his genius  
 it's describe information please explore the link
 [Ceasar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)  
 of my code the function  __**encrypt_literal**__ is using to  encrypt  
